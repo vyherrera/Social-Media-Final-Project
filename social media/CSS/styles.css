@@ -17,14 +17,6 @@ img {
 #container {
     background-color: white;
 }
-
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  }
   
 
 /* Mobile Styles */
@@ -147,11 +139,10 @@ img {
     }
     
  #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 50%;
-        min-height: 50%;
+        display: block;
+    width: 100%;
+    margin: 0 auto;
+    display: ;
       }
     
       .column {
