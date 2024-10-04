@@ -26,6 +26,20 @@ img {
     min-height: 100%;
   }
 
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+/* Clear floats after the columns */
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
 /* Mobile Styles */
 
 @media (min-width: 320px) {
